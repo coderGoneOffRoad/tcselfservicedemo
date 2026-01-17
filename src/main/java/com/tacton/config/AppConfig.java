@@ -30,7 +30,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
 @Configuration
-@PropertySource("file:config.properties")
+@PropertySource("classpath:config.properties")
 public class AppConfig implements WebMvcConfigurer {
 
 
